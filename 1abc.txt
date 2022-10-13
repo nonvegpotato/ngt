@@ -1,0 +1,8 @@
+Use yash
+db.dropDatabase()
+db.yashcol.insert({Name:"Yash",Age:18,Grade:"o"})
+db.yashcol.find()
+db.yashcol.drop()
+db.yashcol.update({"Age":18,},{$set:{"Age":20})
+db.yashcol.remove(Delete_criteria)
+db.yashcol.aggregate.([{$group:{_id:"type",abc:{$min:"$price"}}}])
